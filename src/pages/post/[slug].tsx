@@ -8,6 +8,7 @@ import { RichText } from 'prismic-dom';
 import { FiCalendar, FiClock, FiUser } from 'react-icons/fi';
 import Header from '../../components/Header';
 import { getPrismicClient } from '../../services/prismic';
+
 import commonStyles from '../../styles/common.module.scss';
 import styles from './post.module.scss';
 
@@ -38,7 +39,7 @@ export default function Post({ post }: PostProps): JSX.Element {
 
     const words = contentItem.body.map(item => item.text.split(' ').length);
     words.map(word => (total += word));
-    console.log(total)
+    console.log(total);
     return total;
   }, 0);
 
@@ -117,7 +118,6 @@ export const getStaticPaths: GetStaticPaths = async () => {
     };
   });
 
-
   return {
     paths,
     fallback: true,
@@ -130,7 +130,6 @@ export const getStaticProps: GetStaticProps = async context => {
   const response = await prismic.getByUID('posts', String(slug), {});
 
   const post = {
-
     first_publication_date: response.first_publication_date,
     uid: response.uid,
     data: {
@@ -140,7 +139,7 @@ export const getStaticProps: GetStaticProps = async context => {
       banner: {
         url: response.data.banner.url,
       },
-      content: response.data.content.map(content => {
+      content: response.data.content.map((content: { heading: any; body: any; }) => {
         return {
           heading: content.heading,
           body: [...content.body],
@@ -148,7 +147,6 @@ export const getStaticProps: GetStaticProps = async context => {
       }),
     },
   };
-
 
   return {
     props: {

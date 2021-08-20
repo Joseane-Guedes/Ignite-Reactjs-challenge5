@@ -1,7 +1,7 @@
 .posts {
   margin-top: 2rem;
 
-   > a {
+  > a {
     display: block;
   }
 
@@ -15,18 +15,20 @@
     border: none;
     font-weight: 600;
     font-size: 1.125rem;
-    color:var(--highlight);
-
+    color: var(--highlight);
   }
-
 }
 
 .post {
-
   strong {
     font-size: 1.75rem;
     font-weight: bold;
-    color:var(--heading)
+    color: var(--heading);
+
+  }
+
+  strong:hover {
+    color: var(--highlight);
   }
 
   p {
@@ -40,7 +42,7 @@
     margin-top: 1.6rem;
   }
 
-  & li{
+  & li {
     font-size: 0.875rem;
 
     & svg {
@@ -52,4 +54,3 @@
     }
   }
 }
-

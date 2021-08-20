@@ -11,19 +11,26 @@
     margin: 3rem 0;
   }
 
-  p, span, a, ul{
-    font-size:1.125rem;
+  p,
+  span,
+  a,
+  ul {
+    font-size: 1.125rem;
     line-height: 1.8;
     margin: 1.8rem 0;
-   }
+  }
 
   a {
     color: var(--highlight);
   }
 
-  strong{
+  strong {
     font-weight: 700;
-    color: var(--body)
+    color: var(--body);
+  }
+
+  &:hover strong {
+    color: var(--highlight);
   }
 
   ul {
@@ -36,9 +43,9 @@
 }
 
 .postTop {
-  margin-bottom: 4rem ;
+  margin-bottom: 4rem;
   > h1 {
-    font-size:3rem;
+    font-size: 3rem;
     color: var (--heading);
     margin-bottom: 1.5rem;
   }
@@ -67,7 +74,7 @@
     margin-top: 1rem;
     font-style: italic;
     font-size: 0.875rem;
-    color: var(--info)
+    color: var(--info);
   }
 }
 
@@ -80,14 +87,15 @@
   h3 {
     font-size: 1.125rem;
     font-weight: 400;
-    color:var(--heading);
-    margin-bottom:0.5rem;
+    color: var(--heading);
+    margin-bottom: 0.5rem;
   }
 
   a {
     color: var(--highlight);
     font-weight: 600;
   }
+
 
   div {
     padding-top: 3rem;
@@ -97,4 +105,3 @@
     text-align: right;
   }
 }
-
