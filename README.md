@@ -1,6 +1,6 @@
 <h1 align="center">  <img src="./.github/ignite.png" width="800px" alt="Home page"> </h1>
 
-<h1 align="center">  👩‍🚀 Spacetraveling 🌌 </h1>
+<h1 align="center">  👩‍🚀 Spacetraveling </h1>
 
 <p align="center">
    <img alt="repo size" src="https://img.shields.io/github/repo-size/Joseane-Guedes/Ignite-Reactjs-challenge5" />
@@ -14,7 +14,7 @@
 <br>
 
 # 👩‍💻About
-<p align="justify">Spacetraveling is a blog about technology! In this challenge, the main goal was to build a blog application from scratch according to <a href="https://www.figma.com/file/ngsimuDBUVT2yY1uG0ptCw/Desafios-M%C3%B3dulo-3-ReactJS-(Copy)/" target="_blank" >Figma layout </a> and implementing the principles we've learned about  ReactJS, Prismic CMS and nextJS so far.</p>
+<p align="justify">Spacetraveling is a blog about technology! In this challenge, the main goal is to build a blog application from scratch according to <a href="https://www.figma.com/file/ngsimuDBUVT2yY1uG0ptCw/Desafios-M%C3%B3dulo-3-ReactJS-(Copy)/" target="_blank" >Figma layout </a> and implementing the principles we've learned about  ReactJS, Prismic CMS and nextJS so far.</p>
 
 # :art: Layout
 
