@@ -33,7 +33,7 @@
 - [Prismic](https://prismic.io/docs)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [SASS](https://sass-lang.com/)
-
+- [Utterances](https://utteranc.es/)
 
 # 🔧 Run Locally
 
